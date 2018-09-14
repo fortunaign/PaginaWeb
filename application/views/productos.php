@@ -48,35 +48,39 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-      
-      <div class="row p-4">
+      <div class="row mt-4">
         <!-- Vistas de Post  -->
-        <div class="col-lg-12">
-
-          <!-- Cuerpo de Post  -->
-          <div class="row p-3 mb-4 shadow bg-light">
-            
-          <!-- Portada de Post  -->
-            <div class="col-lg-4 text-center">
-              <img src="<?=base_url()?>plantillas/img/ejemplo.png" class="img-fluid" alt="">
-            </div>
-            
-            <!-- Detalles de Post  -->
-            <div class="col-lg-8 p-4">
-              <h1>Titulo</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus culpa laudantium explicabo, laborum aliquid maxime, reprehenderit quaerat veritatis quidem quos amet, esse quas eos non ipsa vitae dolores. Illum, accusantium.
-              </p>
-              <a href="">Leer mas..</a>
-              <p class="text-secondary">
-                fecha | nombre
-              </p>
-            </div>
-            
-          </div>
+        
+          <?php 
+              foreach ($consulta->result() as $fila) {
+          ?>
+          <div class="col-lg-12">
+            <!-- Cuerpo de Post  -->
+            <div class="row mb-4 shadow bg-light rounded-bottom"> 
+              <!-- Portada de Post  -->
+                <div class="col-lg-4 text-center">
+                  <!--2<img src="<?=base_url()?>plantillas/img/ejemplo.png" class="img-fluid" alt="">-->
+                </div>
+                
+                <!-- Detalles de Post  -->
+                <div class="col-lg-8 p-4">
+                  <h1><?= $fila->titulo ?></h1>
+                  <p>
+                    <?= $fila->descripcion ?>
+                  </p>
+                  <a href="">Leer mas..</a>
+                  <p class="text-secondary">
+                    fecha | nombre
+                  </p>
+                </div>
+              </div>  
+          </div>    
+          <?php
+              }
+          ?>
+          
           <!-- Fin de la Estructura de Post  -->
-
-        </div>
+        
       </div>
 
     </main>

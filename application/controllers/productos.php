@@ -4,6 +4,8 @@ class Productos extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('productos');
+        $resultado = $this->db->get('post'); 
+        $data = array('consulta' => $resultado);
+        $this->load->view('productos', $data);
     }
 }
