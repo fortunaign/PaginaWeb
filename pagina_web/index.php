@@ -16,6 +16,10 @@
         <h1>Programando</h1>
     </header>
     <section id="sect">
+        <?php
+            include 'nav.html';
+            include 'formulario.html';
+        ?>
 
     </section>
     <footer>
