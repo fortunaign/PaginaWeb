@@ -1,6 +1,6 @@
 <nav>
     <ul>
-        <a href="#">
+        <a href="../index.php">
             <li class="btn">Inicio</li>
         </a>
         <a href="">
@@ -12,7 +12,7 @@
         <a href="">
             <li class="btn">Sonido</li>
         </a>
-        <a href="pag/pwVideos.php">
+        <a href="pwVideos.php">
             <li class="btn">Videos</li>
         </a>
         <a href="">
