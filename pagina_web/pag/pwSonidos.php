@@ -17,15 +17,15 @@
     </header>
     <?php include 'nav.php';?>
     <div id="section-index">
-        <div class="videos">
-        <h4>Titulo</h4>
-        <video width="200" height="150" controls="controls" muted="muted" poster="../img/me.gif" >
-            <source src="../mp4/patricio.mp4" type="video/mp4">
-        </video>
-        <p>
-            Usuario | Fecha
-        </p>
-    </div>
+        <div class="sonidos">
+            <h4>Titulo</h4>
+            <audio controls="controls">
+                <source src="../mp3/SoundEffect.mp3" type="audio/mp3">
+            </audio>
+            <p>
+                Usuario | Fecha
+            </p>
+        </div>
     </div>  
 </body>
 </html>

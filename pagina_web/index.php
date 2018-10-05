@@ -11,11 +11,12 @@
 </head>
 <body>
     <!--&#x2630; &#x2715; &#x2713;-->
+    <?php include 'pag/signUpOut.php';?>
     <header>
             <img src="img/programming.gif" alt=""> 
         <h1>Programando</h1>
     </header>
-    <?php include 'nav.html';?>
+    <?php include 'nav.php';?>
     <div id="section-index">
         <?php
             include 'formulario.html';

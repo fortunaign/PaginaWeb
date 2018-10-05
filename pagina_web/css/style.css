@@ -19,6 +19,33 @@ section {
     display: -webkit-flex;
     display: flex;
 }
+
+a {
+    text-decoration: none;
+}
+#signUpOut {
+    background-color: dodgerblue;
+    text-align: right;
+    overflow: auto;
+}
+
+#signUpOut ul {
+    list-style: none;
+}
+#signUpOut ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+#signUpOut ul li:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
 nav {
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -26,9 +53,7 @@ nav {
     text-align: center;
     overflow: auto;
 }
-a {
-    text-decoration: none;
-}
+
 nav ul {
     list-style: none;
 }
@@ -45,10 +70,11 @@ nav ul li:hover {
     background-color: white;
     color: dodgerblue;
 }
+
 #section-index {
     width: 75%;
+    overflow: auto;
     margin: 25px auto;
-    border: 1px solid black;
 }
 article {
     -webkit-flex: 3;
@@ -66,13 +92,35 @@ article {
     padding: 10px;
     margin: 5px;
 }
+video {
+    padding: 10px;
+}
+.videos {
+    overflow: auto;
+    float: left;
+    margin: 5px;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+}
+audio {
+    margin: 10px;
+}
+.sonidos {
+    overflow: auto;
+    margin: 5px;
+    padding: 20px;
+    margin: 10px;
+}
 .imgs {
-    border-bottom: 1px;
-    border-color: black; 
+    overflow: auto;
+    float: left;
+    margin: 5px;
+    padding: 10px;
 }
 .imgs img {
-    width: 300px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
 }
 .forms {
     -webkit-flex: 3;
