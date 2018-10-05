@@ -22,8 +22,5 @@
         ?>
 
     </section>
-    <footer>
-        	&copy; Ignacio Fortuna
-    </footer>
 </body>
 </html>
