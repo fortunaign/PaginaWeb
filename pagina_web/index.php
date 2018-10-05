@@ -15,12 +15,11 @@
             <img src="img/programming.gif" alt=""> 
         <h1>Programando</h1>
     </header>
+    <?php include 'nav.html';?>
     <section id="sect">
         <?php
-            include 'nav.html';
             include 'formulario.html';
         ?>
-
-    </section>
+    </section>  
 </body>
 </html>
