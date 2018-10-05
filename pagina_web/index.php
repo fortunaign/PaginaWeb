@@ -16,10 +16,10 @@
         <h1>Programando</h1>
     </header>
     <?php include 'nav.html';?>
-    <section id="sect">
+    <div id="section-index">
         <?php
             include 'formulario.html';
         ?>
-    </section>  
+    </div>  
 </body>
 </html>

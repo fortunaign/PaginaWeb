@@ -42,7 +42,11 @@ nav ul li button:hover {
     background-color: white;
     color: dodgerblue;
 }
-
+#section-index {
+    width: 75%;
+    margin: 25px auto;
+    border: 1px solid black;
+}
 article {
     -webkit-flex: 3;
     -ms-flex: 3;
@@ -106,4 +110,7 @@ table, th, td {
     nav {
         overflow-x: scroll;
     }
+    #section-index {
+    width: 90%;
+}
 }
