@@ -18,9 +18,6 @@
     </header>
     <?php include 'nav.php';?>
     <div id="section-index">
-        <?php
-            include 'formulario.html';
-        ?>
     </div>  
 </body>
 </html>
