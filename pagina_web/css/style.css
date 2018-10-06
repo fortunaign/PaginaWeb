@@ -49,8 +49,6 @@ a {
 }
 
 nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
     background-color: dodgerblue;
     text-align: center;
     overflow: auto;
@@ -79,9 +77,6 @@ nav ul li:hover {
     margin: 25px auto;
 }
 article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    /*background-color: lightgray;*/
     padding: 10px;
 }
 .post p {
@@ -125,8 +120,6 @@ audio {
     height: 100px;
 }
 .forms {
-    -webkit-flex: 3;
-    -ms-flex: 3;
     margin: 10px;
     padding: 10px;
 }
@@ -160,9 +153,7 @@ table, th, td {
     nav ul {
         width: 550px;
     }
-    nav {
-        /*overflow-x: scroll;*/
-    }
+    
     #section-index {
         width: 90%;
     }
