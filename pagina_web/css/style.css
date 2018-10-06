@@ -159,9 +159,9 @@ table, th, td {
         width: 550px;
     }
     nav {
-        overflow-x: scroll;
+        /*overflow-x: scroll;*/
     }
     #section-index {
-    width: 90%;
-}
+        width: 90%;
+    }
 }

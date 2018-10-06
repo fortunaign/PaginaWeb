@@ -1,4 +1,4 @@
-<nav id="signUpOut">
+<div id="signUpOut">
     <ul>
         <a href="#">
             <li class="btn">Entrar</li>
@@ -7,4 +7,4 @@
             <li class="btn">Registrarte</li>
         </a>
     </ul>
-</nav>
+</div>
