@@ -29,7 +29,7 @@ a {
     background-color: dodgerblue;
     text-align: right;
     overflow: auto;
-    padding: 0px;
+    padding: 0px 20px 0px 0px;
     margin: 0px;
     font-size: 12px;
 }
@@ -147,13 +147,14 @@ table, th, td {
     -webkit-flex-direction: column;
     flex-direction: column;
     }
+    
     li {
         display: inline-block;
     }
     nav ul {
         width: 550px;
     }
-    
+
     #section-index {
         width: 90%;
     }
