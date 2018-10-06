@@ -22,26 +22,28 @@ section {
 
 a {
     text-decoration: none;
+    margin: 0px;
 }
+
 #signUpOut {
     background-color: dodgerblue;
     text-align: right;
     overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
 }
 
-#signUpOut ul {
-    list-style: none;
-}
-#signUpOut ul li {
+#signUpOut a {
     display: inline-block;
-    padding: 10px;
-    margin: 0px;
+    padding: 10px 5px 5px 5px;
+    margin: 0;
     text-decoration: none;
     background-color: dodgerblue;
     color: #fff;
 }
 
-#signUpOut ul li:hover {
+#signUpOut a:hover {
     background-color: white;
     color: dodgerblue;
 }
