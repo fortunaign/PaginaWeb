@@ -18,6 +18,18 @@
     </header>
     <?php include 'nav.php';?>
     <div id="section-index">
+        <div class="portadas">
+            Imagens
+            <img src="img/imagen.svg" alt="">
+        </div>
+        <div class="portadas">
+            Videos
+            <img src="img/video.svg" alt="">
+        </div>
+        <div class="portadas">
+            Sonidos
+            <img src="img/audio.svg" alt="">
+        </div>
     </div>  
 </body>
 </html>

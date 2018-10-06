@@ -132,6 +132,20 @@ label {
 input {
     margin-top: 5px; 
 }
+
+.portadas {
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+}
+
+.portadas img {
+    width: 100px;
+    height: 150px;
+}
+
 footer {
     background-color: dodgerblue;
     text-align: center;
@@ -147,7 +161,7 @@ table, th, td {
     -webkit-flex-direction: column;
     flex-direction: column;
     }
-    
+
     li {
         display: inline-block;
     }
