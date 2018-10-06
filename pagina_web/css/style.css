@@ -69,6 +69,7 @@ nav ul li {
 nav ul li:hover {
     background-color: white;
     color: dodgerblue;
+
 }
 
 #section-index {
@@ -135,15 +136,40 @@ input {
 
 .portadas {
     width: 200px;
-    height: 250px;
-    border: 1px solid black;
     float: left;
     margin: 10px;
+    color: gray;
 }
 
 .portadas img {
     width: 100px;
-    height: 150px;
+    padding: 10px;
+}
+
+.portadas .port-head, .port-body, .port-footer {
+    text-align: center;
+    padding: 5px;
+}
+
+.portadas .port-head h3 {
+    padding: 10px;
+}
+
+.portadas .port-footer a {
+    display: block;
+    padding: 10px;
+    color: #000;
+}
+
+.portadas .port-footer a:hover {
+    background-color:  dodgerblue;
+    color: #fff;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.portadas:hover {
+    box-shadow: 2px 2px 2px 2px silver;
 }
 
 footer {

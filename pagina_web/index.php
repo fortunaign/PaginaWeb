@@ -19,16 +19,37 @@
     <?php include 'nav.php';?>
     <div id="section-index">
         <div class="portadas">
-            Imagens
-            <img src="img/imagen.svg" alt="">
+            <div class="port-head">
+                <h3>Mis Imagenes</h3>
+            </div>
+            <div class="port-body">
+                <img src="img/imagen.svg" alt="">
+            </div>    
+            <div class="port-footer">
+                <a href="">Entrar</a>
+            </div>
         </div>
         <div class="portadas">
-            Videos
-            <img src="img/video.svg" alt="">
+            <div class="port-head">
+                <h3>Mis Videos</h3>
+            </div>    
+            <div class="port-body">
+                <img src="img/video.svg" alt="">
+            </div>    
+            <div class="port-footer">
+                <a href="">Entrar</a>
+            </div>
         </div>
         <div class="portadas">
-            Sonidos
-            <img src="img/audio.svg" alt="">
+            <div class="port-head">
+                <h3>Mis Sonidos</h3>
+            </div> 
+            <div class="port-body">
+                <img src="img/audio.svg" alt="">
+            </div>    
+            <div class="port-footer">
+                <a href="">Entrar</a>
+            </div>
         </div>
     </div>  
 </body>
