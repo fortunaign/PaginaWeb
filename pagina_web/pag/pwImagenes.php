@@ -17,40 +17,68 @@
     </header>
     <?php include 'nav.php';?>
     <div id="section-index">
-        <div class="imgs">
-            <h4>Titulo</h4>
-            <img src="../img/World.jpg" alt="" alt="view of ur world from space"/>
-            <p>
+
+        <div class="portadas">
+            <div class="port-head">
+                <h4>Titulo</h4>
+            </div>
+            <div class="port-body">
+                <img src="../img/World.jpg" alt="" alt="view of ur world from space"/>
+            </div>    
+            <div class="port-footer">
+                <p>
                 Usuario | Fecha
             </p>
+            </div>
         </div>
-        <div class="imgs">
-            <h4>Titulo</h4>
-            <img src="../img/board.jfif" alt="" usemap="#ver">
-            <p>
+        
+        <div class="portadas">
+            <div class="port-head">
+                <h4>Titulo</h4>
+            </div>
+            <div class="port-body">
+                <img src="../img/board.jfif" alt="" usemap="#ver">
+            </div>    
+            <div class="port-footer">
+                <p>
                 Usuario | Fecha
             </p>
+            </div>
+        </div>    
+
+        <div class="portadas">
+            <div class="port-head">
+                <h4>Titulo</h4>
+            </div>
+            <div class="port-body">
+                <img src="../img/board.jfif" alt="" usemap="#ver">
+                <map name="ver">
+                    <area shape="rect" coords="56,134,140,60" href="#" alt=""/>
+                </map>
+            </div>    
+            <div class="port-footer">
+                <p>
+                Usuario | Fecha
+            </p>
+            </div>
         </div>
-        <div class="imgs">
-            <h4>Titulo</h4>
-            <img src="../img/board.jfif" alt="" usemap="#ver">
-            <map name="ver">
-                <area shape="rect" coords="56,134,140,60" href="#" alt=""/>
-            </map>
-            <p>
+
+        <div class="portadas">
+            <div class="port-head">
+                <h4>Titulo</h4>
+            </div>
+            <div class="port-body">
+                <picture>
+                    <source media="(min-width: 650px)" srcset="../img/image_A.png">
+                        <source media="(min-width: 450px)" srcset="../img/image_B.png">
+                            <img src="../img/image_C.png" alt="">
+                </picture>
+            </div>    
+            <div class="port-footer">
+                <p>
                 Usuario | Fecha
             </p>
-        </div>
-        <div class="imgs">
-            <h4>Titulo</h4>
-            <picture>
-                <source media="(min-width: 650px)" srcset="../img/image_A.png">
-                    <source media="(min-width: 450px)" srcset="../img/image_B.png">
-                        <img src="../img/image_C.png" alt="">
-            </picture>
-            <p>
-                Usuario | Fecha
-            </p>
+            </div>
         </div>
         
     </div>  

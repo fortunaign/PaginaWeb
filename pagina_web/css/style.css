@@ -143,7 +143,17 @@ input {
 
 .portadas img {
     width: 100px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.portadas .port-body img {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+}
+
+.portadas img:hover {
+    color: red;
 }
 
 .portadas .port-head, .port-body, .port-footer {
@@ -151,14 +161,25 @@ input {
     padding: 5px;
 }
 
+.portadas .port-head {
+    background-color:  dodgerblue;
+    color: #fff;
+}
+
 .portadas .port-head h3 {
     padding: 10px;
+
+}
+
+.portadas .port-footer {
+    background-color:  dodgerblue;
+    color: #fff;
 }
 
 .portadas .port-footer a {
     display: block;
     padding: 10px;
-    color: #000;
+    color: #fff;
 }
 
 .portadas .port-footer a:hover {
