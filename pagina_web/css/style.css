@@ -73,23 +73,12 @@ nav ul li:hover {
 }
 
 #section-index {
-    width: 75%;
-    overflow: auto;
-    margin: 25px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
-article {
-    padding: 10px;
-}
-.post p {
-    text-align: justify;
-}
-.post {
-    width: 300px;
-    display: inline-block;
-    background-color: aliceblue;
-    padding: 10px;
-    margin: 5px;
-}
+
 video {
     padding: 10px;
 }
@@ -110,16 +99,7 @@ audio {
     padding: 20px;
     margin: 10px;
 }
-.imgs {
-    overflow: auto;
-    float: left;
-    margin: 5px;
-    padding: 10px;
-}
-.imgs img {
-    width: 150px;
-    height: 100px;
-}
+
 .forms {
     margin: 10px;
     padding: 10px;
@@ -134,22 +114,16 @@ input {
     margin-top: 5px; 
 }
 
+/* ====== Portadas de inicio ===== */
 .portadas {
+    
     width: 200px;
-    float: left;
     margin: 10px;
     color: gray;
 }
 
-.portadas img {
-    width: 100px;
-    padding: 20px;
-}
-
 .portadas .port-body img {
-    width: 200px;
-    height: 150px;
-    padding: 20px;
+    width: 150px;
 }
 
 .portadas img:hover {
@@ -168,7 +142,6 @@ input {
 
 .portadas .port-head h3 {
     padding: 10px;
-
 }
 
 .portadas .port-footer {
@@ -192,6 +165,68 @@ input {
 .portadas:hover {
     box-shadow: 2px 2px 2px 2px silver;
 }
+
+/* ====== Portadas de imagenes ===== */
+
+.port-imagenes {
+    width: 200px;
+    margin-left: 5px;
+}
+.port-imagenes .port-body {
+    clear: both;
+    border: none;
+    margin: 0px;
+}
+
+.port-imagenes .port-body img {
+    width: 100%;
+    height: auto;
+}
+
+.port-imagenes .port-head, .port-body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.port-imagenes .port-head {
+    background-color:  dodgerblue;
+    color: #fff;
+}
+
+.port-imagenes .port-head h3 {
+    padding: 10px;
+}
+
+.port-imagenes .port-footer {
+    /*background-color:  dodgerblue;
+    position: fixed;
+    bottom: 0;
+    */
+    border: 1px solid black;
+    color: #fff;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.port-imagenes .port-footer a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+
+.port-imagenes .port-footer a:hover {
+    background-color:  dodgerblue;
+    color: #fff;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.port-imagenes:hover {
+    box-shadow: 2px 2px 2px 2px silver;
+}
+/* ====== Portadas de imagenes ===== */
 
 footer {
     background-color: dodgerblue;

@@ -18,6 +18,7 @@
     </header>
     <?php include 'nav.php';?>
     <div id="section-index">
+        
         <div class="portadas">
             <div class="port-head">
                 <h3>Mis Imagenes</h3>
